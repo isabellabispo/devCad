@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Sono & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Sono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body{
+   background: linear-gradient(rgb(248, 243, 243), rgb(194, 194, 211)) no-repeat;
+   background-size: cover !important;
+   min-height: 100%;
+}
+
+nav{
+    margin-bottom: 2rem;
+    height: 3rem!important;
+    background-color: rgb(86, 86, 155);
+    width: 100% !important;
+    margin-left: 0;
+    box-shadow:  2px 8px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+input{
+    border-radius: 7px !important;
+    background-color: rgba(250, 246, 245, 0.789);
+    border: none;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+#addTechBtn{
+    margin-bottom: -4rem;
+    margin-top: -4rem;
+    background-color: rgb(44, 44, 85);
+    border: none;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 10rem;
+    border-radius: 5px;
+    font-family: 'PT Mono', monospace;
+}
+    
+
+label{
+    font-family: 'PT Mono', monospace;
+}
+#fullname{
+    width: 18%;
+}
+
+button{
+ border:  none;
+ color: white;
+ height: 35px;
+ box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ font-weight: 700;
+ font-family: 'PT Mono', monospace !important;
+
+}
+h1{
+    font-family: 'PT Mono', monospace;
+}
+
+h4{
+    font-family: 'PT Mono', monospace;
+}
+
+h2{
+    font-family: 'PT Mono', monospace;
+}
+
+#icon{
+    margin-left: 4rem;
+}
+
+
+#cad{
+    font-weight: 700;
+    font-family: 'PT Mono', monospace;
+    background-color: rgb(44, 44, 85);
+    color: white !important;
+
+}
+
+
+#img-code{
+    width: 100px;
+   align-items: center !important;
+  
+}
+
+button:hover{
+    filter: contrast(130%);
+}
